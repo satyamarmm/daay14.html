@@ -1,0 +1,209 @@
+
+*{
+    margin: 0px;
+  }
+.header{
+  background-color:#FADFA1;
+  height: 55px;
+  padding-top: 10px;
+  text-align: center;
+  color:#C96868;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  }
+  @media screen and (max-device-width:425px){
+    .header{
+        height: 150px;
+        background-color: #FFE5CF;
+        color: #FF885B;
+        font-size: 25px;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+
+    }
+ 
+  }
+  .parent1{
+      display: flex;
+      margin-top: 100px;
+    justify-content: center;
+    gap: 60px;
+  }
+  @media screen and (max-device-width:425px){
+    .parent1{
+      display: grid;
+      gap: 50px;
+    }
+    .img{
+      width: 250px;
+      height: 250px;
+    }
+    .footer{
+      
+    }
+    form{
+     margin-left:-230px;
+    }
+    h2{
+      margin-left: -210px;
+      font-size: 25px;
+      color: lightgreen;
+    }
+    .parent22{
+      display: grid;
+      grid-template-columns: 4;
+      padding: 1px;
+    }
+    a{
+      color:black;
+      text-decoration: none;
+      background-color: white;
+      padding:5px;
+      border: 2px solid rgb(76, 72, 72);
+      border-radius:20rem;
+    }
+    a:hover{
+      background-color: black;
+      color:white;
+    }
+
+  
+  }
+  .oo{
+    height: 150px;
+    width: 300px;
+  }
+  img{
+      width: 200px;
+      z-index: 6;
+    transition: transform 1s ease-in ;
+      
+  }
+  
+  .parent2{
+      margin-top: 100px;
+      display: flex;
+      justify-content: center;
+ 
+      
+  }
+  .parent2 div{
+    padding: 10px;
+  }
+  
+  img:hover{
+    content: url(https://media.gettyimages.com/id/157165322/photo/cookie-thief-with-clipping-path.jpg?s=612x612&w=gi&k=20&c=SLlWX6nacC62eIBUVOPLkMJ2wvswyKOE_y98ClYrmSY=);
+    transform:translateY(-40px);
+    opacity: 100%;
+  }
+  
+  hr{
+    position: relative;
+    top: -50px;
+    border: none;
+    height: 2px;
+    background: black;
+    z-index: -1;
+    margin-left: 100px;
+    margin-right: 100px;
+  }
+  .parent22{
+    display: flex;
+    justify-content: center;
+    gap: 90px;
+  }
+  a{
+    color:black;
+    text-decoration: none;
+    background-color: white;
+    padding:10px;
+    border: 2px solid black;
+    border-radius:20rem;
+  }
+  a:hover{
+    background-color: black;
+    color:white;
+  }
+  span{
+    margin-right: 10px;
+  }
+  .Cutiepie{
+    margin-top: 50px;
+  }
+  .footer{
+    margin-top: 175px;
+    padding-left: 690px;
+    background-color: chocolate;
+  
+  }
+  /* @media screen and (max-device-width:425px){
+    .footer{
+        background-color:lightgreen;
+        color: #ee84ec;
+        height: 270px;
+        width: -18%;
+        width: 100%;
+
+    }
+    form{
+        position: absolute;
+        left: 15%;
+    }
+    h1{
+        font-size: 18px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;   
+    }
+  } */
+  /* @media screen and (min-width: 351px) and (max-width: 460px) {
+    .parent22{
+      max-width: 50% !important;
+    }
+  } */
+  
+  button{
+    background-color: white;
+    margin-left: 50px;
+  }
+
+
+
+
+
+
+  
+  #cookie-popup { 
+    position: fixed; 
+    top: 450px;
+    left: 0; 
+    width: 100%; 
+    background-color: #333; 
+    color: #fff; 
+    text-align: center; 
+    padding: 15px; 
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2); 
+} 
+@media screen and (max-device-width:425px){
+    #cookie-popup { 
+        background-color: black;
+        color: antiquewhite;
+        top: 1600px;
+    }
+}
+
+#cookie-popup p { 
+    margin: 0; 
+} 
+
+#cookie-popup button { 
+    margin-top: 10px; 
+    background-color: #16bb24; 
+    color: #fff; 
+    border: none; 
+    padding: 10px 20px; 
+    font-size: large; 
+    cursor: pointer; 
+} 
+
+#cookie-popup button:hover { 
+    background-color: #b6c464; 
+    color: rgb(62, 62, 62);
+} 
